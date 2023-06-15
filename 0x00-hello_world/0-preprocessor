@@ -1,7 +1,2 @@
 #!/bin/bash
-
-cfile="$CFILE"
-
-output_file="c"
-
-gcc -E "$cfile" -o "$output_file"
+cfile="$CFILE"; gcc -E "$cfile" -o c
