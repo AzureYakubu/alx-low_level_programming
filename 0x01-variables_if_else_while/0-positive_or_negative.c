@@ -12,6 +12,7 @@
 void printNumberInfo(int n)
 {
 printf("The number %d ", n);
+
 if (n > 0)
 {
 printf("is positive");
@@ -31,22 +32,14 @@ printf("\n");
  * main - Entry point of the program
  *
  * Generates a random number and prints its information.
- * Also prints information about predefined numbers.
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printNumberInfo(n);
-n = 98;
-printNumberInfo(n);
-n = -98;
-printNumberInfo(n);
-n = 0;
 printNumberInfo(n);
 return (0);
 }
