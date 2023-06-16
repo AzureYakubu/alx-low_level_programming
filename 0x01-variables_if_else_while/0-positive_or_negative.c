@@ -11,7 +11,7 @@
 
 void printNumberInfo(int n)
 {
-printf("%d", n);
+printf("%d ", n);
 
 if (n > 0)
 {
