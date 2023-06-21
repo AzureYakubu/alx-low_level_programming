@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-int n1 = 0;
-int n2 = 1;
+int n1 = 1;
+int n2 = 2;
 int next;
 int count;
 printf("%d, %d", n1, n2);
